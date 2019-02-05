@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 const sequelize = require('../db')
-const Customer = require('../companies/model')
+const Company = require('../companies/model')
 
 const Customer = sequelize.define('customers', {
   firstName: {
